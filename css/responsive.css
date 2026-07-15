@@ -1,0 +1,59 @@
+/* Mobile & responsive overrides */
+
+@media (max-width: 900px) {
+	body{ height:auto; min-height:100vh; }
+
+	.hero, .hero.subpage-hero{
+		grid-template-columns: 1fr !important;
+		padding: clamp(20px, 6vw, 40px);
+		height: auto;
+		align-items: start;
+		gap: 20px;
+	}
+
+	.left{
+		align-items:flex-start;
+	}
+
+	.left h1{
+		font-size: clamp(36px, 8vw, 48px);
+		color: white;
+	}
+
+	.left h2{
+		font-size:16px;
+		color: #ffffff;
+	}
+
+	.service-stage{
+		justify-content:center;
+		padding-left:0;
+	}
+
+	.service-panel{
+		max-width:100%;
+		padding:clamp(20px,4vw,28px);
+		min-height:auto;
+		box-shadow:0 12px 30px rgba(0,0,0,0.12);
+	}
+
+	.footer-text{
+		position:static;
+		transform:none;
+		text-align:left;
+		margin-top:12px;
+		padding:0 8px;
+	}
+}
+
+@media (max-width: 480px) {
+	.hero{ padding: 18px; }
+
+	.left h1{ font-size:32px; }
+	.left h2{ font-size:14px; }
+
+	.service-panel p, .service-panel li{ font-size:15px; }
+	.service-panel .service-price{ font-size:16px; }
+
+	.back-link{ font-size:13px; }
+}
