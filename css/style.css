@@ -108,9 +108,7 @@ body{
 /*!!!*/
 
 
-body.subpage{
-    background:url("../images/hero.jpg") center center/cover no-repeat;
-}
+
 
 .hero.subpage-hero{
     grid-template-columns:minmax(220px, 0.6fr) minmax(320px, 1fr);
