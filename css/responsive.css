@@ -107,7 +107,7 @@
 
     .left h2{
         font-size:12px;
-        color:#ece6e6;
+        color:#000000;
     }
 
     .menu{
@@ -179,7 +179,7 @@
 @media (max-width:390px){
 
     .left h1{
-        font-size:30px;
+        font-size:42px;
     }
 
     .menu-item{
