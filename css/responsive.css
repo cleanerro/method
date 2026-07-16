@@ -101,12 +101,13 @@
     }
 
     .left h1{
-        font-size:40px;
+        font-size:44px;
         letter-spacing:4px;
     }
 
     .left h2{
         font-size:12px;
+        color:#ece6e6;
     }
 
     .menu{
