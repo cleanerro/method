@@ -52,8 +52,9 @@
 
     .menu{
         width:100%;
-        align-items:center;
+        align-items:left;
         gap:18px;
+        padding-left:40px;
     }
 
     .menu-item{
@@ -62,7 +63,7 @@
 
     .service-stage{
         width:100%;
-        padding:0;
+        padding:30px;
         justify-content:center;
     }
 
@@ -136,6 +137,7 @@
     .menu{
         margin-top: 40px;
         gap:18px;
+        padding-left:5px;
     }
       .menu a{ 
        font-size:22px;
@@ -177,6 +179,7 @@
     .back-link{
         font-size:13px;
     }
+   
 
        
         
@@ -211,7 +214,12 @@
         margin-top:40px;
         align-items:center;
         gap:20px;
-
-}
+    }
+    .menu{
+        width:100%;
+        align-items:left;
+        gap:18px;
+        padding:5px
+    }
 
 }
