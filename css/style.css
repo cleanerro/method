@@ -7,14 +7,14 @@
 body{
     font-family:var(--font);
     background:url("../images/hero.jpg") center center/cover no-repeat;
-    height:100vh;
+     min-height:100svh;
     color:#111;
 }
 
 .hero{
     display:grid;
     grid-template-columns:1fr 1fr 220px;
-    height:100vh;
+    min-height:100svh;
     padding:70px;
     position:relative;
     width:100%;
