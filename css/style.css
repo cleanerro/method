@@ -24,6 +24,11 @@ body{
     clamp(30px,5vw,80px); 
 }
 
+.hero a:hover {
+  color: #625d5d;
+}
+
+
 .home-hero{
     grid-template-columns:minmax(260px, 1fr) minmax(320px, 1.2fr);
 }
@@ -71,6 +76,16 @@ body{
     letter-spacing:1px;
     color:#1f1f1f;
     text-decoration:none;
+}
+
+.plus{
+    font-size:18px;
+    color:#1f1f1f;
+    opacity:0.8;
+}
+
+.number{
+    opacity:0.8;
 }
 
 .right{
